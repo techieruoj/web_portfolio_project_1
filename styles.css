@@ -1,0 +1,43 @@
+
+ /* this is the CSS background selection  */
+section {
+    background-color: hotpink;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+    font-weight: lighter;
+  }
+ /* this is the CSS selection ro highlight 3 seperate areas 
+  .greenyellow-box {
+    background-color: greenyellow;
+  }*/
+ /* this is the CSS selection o highlight 3 seperate areas, the black is the font color */
+  div{
+    background-color:greenyellow;
+      font-size: 20px;
+      color: black; 
+  }
+/* this is the paragraph color */
+   p{
+    background-color: greenyellow;
+
+   }
+ /* this is where it says I'm nested this says hey there button*/
+   .second {
+    color: whitesmoke;
+    font-size: 36px
+   }
+/* I nested the button element into a new div called welcome */
+.button {
+  background-color: yellow;   
+  color: purple;
+
+}
+/* This is the welcome button at top left, it has a class and id selector,  */
+.welcome{
+  font-size: 28px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
