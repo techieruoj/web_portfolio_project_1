@@ -1,4 +1,3 @@
-
  /* this is the CSS background selection  */
 section {
     background-color: hotpink;
@@ -6,12 +5,10 @@ section {
     color: black;
     text-align: left;
     font-weight: lighter;
+
   }
- /* this is the CSS selection ro highlight 3 seperate areas 
-  .greenyellow-box {
-    background-color: greenyellow;
-  }*/
- /* this is the CSS selection o highlight 3 seperate areas, the black is the font color */
+
+ /* this is the CSS selection that highlights 3 seperate areas, the black is the font color */
   div{
     background-color:greenyellow;
       font-size: 20px;
@@ -22,22 +19,34 @@ section {
     background-color: greenyellow;
 
    }
- /* this is where it says I'm nested this says hey there button*/
+ /* this is where it says I'm nested this says hey there button
    .second {
     color: whitesmoke;
     font-size: 36px
-   }
-/* I nested the button element into a new div called welcome */
+   }/
+/* this is the button ID selector I nested the button element into a div called Home, Welcome, Skills, About Me  */
 .button {
-  background-color: yellow;   
-  color: purple;
+  /* margin-left: auto;*/
+  /* padding: 8px 16 px;*/
+  color: whitesmoke;   
+  color: black;
 
 }
-/* This is the welcome button at top left, it has a class and id selector,  */
+/* the button hover will highlight red dwhen hovering over home*/
+.button:hover {
+  border: 2px solid red;
+}
+
+
+/* This is the welcome button at top left, it has a class and id selector, 
 .welcome{
   font-size: 28px;
 font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*ul{
+  /*this removes the dots on the list items  */
+  list-style-type: none;
+  display: flex;
+} 
 
