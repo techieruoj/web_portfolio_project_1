@@ -1,3 +1,18 @@
+.flex-container div{
+  display: flex; 
+  background-color: neon yellow;
+  border:4px hotpink;
+  height: 100 px;
+  padding: 10px;
+}
+
+.flex-item {
+  background-color: hotpink;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid white;
+}
+
  /* this is the CSS background selection  */
 section {
     background-color: hotpink;
@@ -19,11 +34,7 @@ section {
     background-color: greenyellow;
 
    }
- /* this is where it says I'm nested this says hey there button
-   .second {
-    color: whitesmoke;
-    font-size: 36px
-   }/
+ 
 /* this is the button ID selector I nested the button element into a div called Home, Welcome, Skills, About Me  */
 .button {
   /* margin-left: auto;*/
@@ -38,15 +49,4 @@ section {
 }
 
 
-/* This is the welcome button at top left, it has a class and id selector, 
-.welcome{
-  font-size: 28px;
-font-family: Arial, Helvetica, sans-serif;
-}
-
-/*ul{
-  /*this removes the dots on the list items  */
-  list-style-type: none;
-  display: flex;
-} 
 
